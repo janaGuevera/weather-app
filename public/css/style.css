@@ -1,0 +1,58 @@
+.space{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.384);
+    margin-bottom: 10px;
+}
+
+.nodisplay{
+    display: none;
+}
+
+label.error{
+    width: 100%;
+    background-color: #fbe5e5;
+    color: #f74e4e;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+/* Login Section */
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container form{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.634);
+}
+
+.profile-image{
+    width: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}

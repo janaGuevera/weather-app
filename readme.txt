@@ -1,0 +1,5 @@
+Create env variavles for 
+PORT
+SESSION_SECRET
+SMTP_KEY
+DATABASE_CONNECTION
